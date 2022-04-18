@@ -16,4 +16,4 @@ mv /Syslog_CDC/Syslog_Primary/ZScaler/*.log.gz /Syslog_CDC/Syslog_Backup/ZScaler
 #mv /Syslog/System/*.$CDATE*.gz /Syslog_Bkp/System_Bkp/
 end=`date +%s` # this will capture the time when the script ended
 runtime=$((end-start)) #this will calculate the total time required for the script to execute. 
-echo "Hello Sir !!! The script Transist took $runtime seconds" >> /home/jagtapawan/script.txt #this will store the value in home/jagtapawan/script.txt
+echo "Hello Sir !!! The script Transist took $runtime seconds" >> /home/jagtapawan/script.txt #this will store the totsl time required to run the script in home/jagtapawan/script.txt
